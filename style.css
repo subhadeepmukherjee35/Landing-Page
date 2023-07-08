@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Roboto+Slab:wght@200&family=Roboto:ital,wght@0,400;1,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+section{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)) ,url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 85%;
+    margin: auto;
+
+}
+nav{
+    height: 90px;
+
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: tomato;
+
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 6px;
+
+}
+nav ul li a:hover{
+    background-color: orange;
+    transition: 0.5s ease;
+}
+.detail{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.detail h1{
+    
+    font-size: 35px;
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+.detail p{
+    font-size: 18px;
+    color: wheat;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+.detail .btn{
+    color: white;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: chocolate;
+}
+.detail .btn:hover{
+    background-color: blueviolet;
+    transition: 0.5s ease;
+}
+
